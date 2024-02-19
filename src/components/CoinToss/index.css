@@ -1,0 +1,106 @@
+/* Write your CSS here */
+.coinToss-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coinToss-card {
+  height: 80vh;
+  width: 50vw;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #a35200;
+  font-size: 40px;
+}
+.heads-or-tails {
+  color: #334155;
+  font-size: 25px;
+}
+.coin-img {
+  height: 250px;
+  width: 250px;
+  border-radius: 30px;
+}
+.toss-btn {
+  color: #a35200;
+  background-color: #f9d423;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.coins-count-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.coins-count {
+  color: #475569;
+  font-size: 27px;
+  padding-left: 20px;
+}
+
+@media screen and (width<=767px) {
+  .coinToss-container {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to left, #e2a139, #f9d423);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .coinToss-card {
+    height: 80vh;
+    width: 70vw;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading {
+    color: #a35200;
+    font-size: 25px;
+  }
+  .heads-or-tails {
+    color: #334155;
+    font-size: 18px;
+  }
+  .coin-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 30px;
+  }
+  .toss-btn {
+    color: #a35200;
+    background-color: #f9d423;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+
+  .coins-count-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .coins-count {
+    color: #475569;
+    font-size: 18px;
+    padding-left: 10px;
+  }
+}
